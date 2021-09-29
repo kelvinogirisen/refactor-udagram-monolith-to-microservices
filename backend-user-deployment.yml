@@ -15,12 +15,12 @@ spec:
         service: backend-user
     spec:
       containers:
-        - image: kayjoe/udagram-api-user
+        - image: kayjoe/udagram-api-user:v1
           name: backend-user
           imagePullPolicy: Always
           resources:
             requests:
-              memory: "100Mi"
+              memory: "200Mi"
               cpu: "250m"
             limits:
               memory: "1024Mi"
