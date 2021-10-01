@@ -15,7 +15,7 @@ spec:
         service: frontend
     spec:
       containers:
-        - image: kayjoe/udagram-frontend
+        - image: kayjoe/udagram-frontend:v3
           name: frontend
           imagePullPolicy: Always
           ports:
