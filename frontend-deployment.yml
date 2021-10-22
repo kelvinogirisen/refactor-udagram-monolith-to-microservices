@@ -15,14 +15,14 @@ spec:
         service: frontend
     spec:
       containers:
-        - image: kayjoe/udagram-frontend:v3
+        - image: kayjoe/udagram-frontend:v1
           name: frontend
           imagePullPolicy: Always
           ports:
             - containerPort: 80
           resources:
             requests:
-              memory: "800Mi"
+              memory: "128Mi"
               cpu: "400m"
             limits:
               memory: "1024Mi"
